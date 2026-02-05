@@ -1,0 +1,37 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.box-layout {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 12px;
+  padding: 0.7rem;
+  max-width: 200px;
+  margin: 2rem auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08)
+}
+
+p {
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  color: #3a3a3a;
+  font-weight: 700;
+}
+
+.rounded-image{
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+p.small {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: hsl(216, 15%, 48%);
+}
+
+.box-text {
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+}
+
