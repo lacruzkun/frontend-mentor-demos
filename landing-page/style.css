@@ -1,0 +1,36 @@
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  min-height: 20vh;
+  margin: 0 auto;
+  background-color: #55959b;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+p.name {
+  font-size: 2rem;
+}
+
+body {
+  background-color: #f2cea8;
+}
+
+@keyframes in-from-left {
+  0% {
+  transform: translateX(-100%);
+}
+100% {
+  transform: translateX(0%);
+}
+
+}
